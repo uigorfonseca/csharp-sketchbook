@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "api",
+            "name": "API"
+        },
+        {
+            "path": "csharp-basico",
+            "name": "CSharp Básico"
+        },
+        {
+            "path": ".",
+            "name": "Raiz"
+        }
+    ],
+    "settings": {}
+}
