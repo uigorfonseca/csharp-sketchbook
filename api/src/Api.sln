@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application", "Api.Application\application.csproj", "{1BE597A3-FA18-424B-822D-3554A6394054}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Api.Domain\Domain.csproj", "{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{1BE597A3-FA18-424B-822D-3554A6394054}.Release|x64.Build.0 = Release|Any CPU
 		{1BE597A3-FA18-424B-822D-3554A6394054}.Release|x86.ActiveCfg = Release|Any CPU
 		{1BE597A3-FA18-424B-822D-3554A6394054}.Release|x86.Build.0 = Release|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Debug|x64.Build.0 = Debug|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Release|x64.ActiveCfg = Release|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Release|x64.Build.0 = Release|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0459909-DCAD-41C0-857B-D9CCC45A3FDA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
