@@ -26,7 +26,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
  - [ ] API(aspnet core 3.1)
      - [ ]  Criação da solução e camadas da arquitetura
 	      - [x]  Solução
-	      - [ ]  Camada webapi
+	      - [x]  Camada Application(webapi)
 	      - [ ]  Camadas de Infraestura
 		      - [ ]  Domain
 		      - [ ] Cross Cutting
