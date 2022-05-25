@@ -24,7 +24,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	 - [ ] While, Continue e Break
 	 - [ ] Switch
  - [ ] API(aspnet core 3.1)
-     - [ ]  Criação da solução e camadas da arquitetura
+     - [x]  Criação da solução e camadas da arquitetura
 	      - [x]  Solução
 	      - [x]  Camada Application(webapi)
 	      - [x]  Camadas de Infraestura
