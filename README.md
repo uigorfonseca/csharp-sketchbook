@@ -29,7 +29,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	      - [x]  Camada Application(webapi)
 	      - [ ]  Camadas de Infraestura
 		      - [x]  Domain
-		      - [ ] Cross Cutting
+		      - [x] Cross Cutting
 		      - [ ] Data
 		      - [ ] Service
      - [ ] Camada Data
