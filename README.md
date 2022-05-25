@@ -27,11 +27,11 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
      - [ ]  Criação da solução e camadas da arquitetura
 	      - [x]  Solução
 	      - [x]  Camada Application(webapi)
-	      - [ ]  Camadas de Infraestura
+	      - [x]  Camadas de Infraestura
 		      - [x]  Domain
 		      - [x] Cross Cutting
 		      - [x] Data
-		      - [ ] Service
+		      - [x] Service
      - [ ] Camada Data
 	     - [ ] Base Entitity
 	     - [ ] User Entity
