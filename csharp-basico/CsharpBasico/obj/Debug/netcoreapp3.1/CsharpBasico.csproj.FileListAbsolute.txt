@@ -1,0 +1,13 @@
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\bin\Debug\netcoreapp3.1\CsharpBasico.exe
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\bin\Debug\netcoreapp3.1\CsharpBasico.deps.json
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\bin\Debug\netcoreapp3.1\CsharpBasico.runtimeconfig.json
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\bin\Debug\netcoreapp3.1\CsharpBasico.runtimeconfig.dev.json
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\bin\Debug\netcoreapp3.1\CsharpBasico.dll
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\bin\Debug\netcoreapp3.1\CsharpBasico.pdb
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\obj\Debug\netcoreapp3.1\CsharpBasico.csprojAssemblyReference.cache
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\obj\Debug\netcoreapp3.1\CsharpBasico.AssemblyInfoInputs.cache
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\obj\Debug\netcoreapp3.1\CsharpBasico.AssemblyInfo.cs
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\obj\Debug\netcoreapp3.1\CsharpBasico.csproj.CoreCompileInputs.cache
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\obj\Debug\netcoreapp3.1\CsharpBasico.dll
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\obj\Debug\netcoreapp3.1\CsharpBasico.pdb
+C:\Users\uigor\OneDrive\Documents\GitHub\csharp-sketchbook\csharp-basico\CsharpBasico\obj\Debug\netcoreapp3.1\CsharpBasico.genruntimeconfig.cache
