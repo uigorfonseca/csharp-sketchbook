@@ -25,13 +25,13 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	 - [ ] Switch
  - [ ] API(aspnet core 3.1)
      - [ ]  Criação da solução e camadas da arquitetura
-	      - [ ]  Solução
-	      - [ ]  Camada webapi
-	      - [ ]  Camadas de Infraestura
-		      - [ ]  Domain
-		      - [ ] Cross Cutting
-		      - [ ] Data
-		      - [ ] Service
+	      - [x]  Solução
+	      - [x]  Camada Application(webapi)
+	      - [x]  Camadas de Infraestura
+		      - [x]  Domain
+		      - [x] Cross Cutting
+		      - [x] Data
+		      - [x] Service
      - [ ] Camada Data
 	     - [ ] Base Entitity
 	     - [ ] User Entity
