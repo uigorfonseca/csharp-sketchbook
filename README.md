@@ -30,7 +30,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	      - [ ]  Camadas de Infraestura
 		      - [x]  Domain
 		      - [x] Cross Cutting
-		      - [ ] Data
+		      - [x] Data
 		      - [ ] Service
      - [ ] Camada Data
 	     - [ ] Base Entitity
