@@ -39,6 +39,6 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	     - [x] Base Entitity
 	     - [x] User Entity
 	     - [x] Instalaçao de pacotes ORM
-	     - [ ] Implementação do context
-	     - [ ] Referencia da camada Data com Domain
+	     - [x] Implementação do context
+	     - [x] Referencia da camada Data com Domain
 		
