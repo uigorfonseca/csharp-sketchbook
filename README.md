@@ -1,4 +1,5 @@
 
+
 # CSharp-sketchbook
 
 ![LiveMessage_2022-05-25-15-24-48](https://user-images.githubusercontent.com/40609362/171283452-3cbe3076-40c9-44b6-b63e-a2cdc1c21556.gif)
@@ -41,4 +42,14 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	     - [x] Instalaçao de pacotes ORM
 	     - [x] Implementação do context
 	     - [x] Referencia da camada Data com Domain
+	     - [x] Implementar ContextFactory
+	     - [x] Implementar UserMap
+	     - [x] Implementar Migrations do User
+	     - [ ] Implementar interface de repositorio
+	     - [ ] Implementar repositorio genérico
+		     - [ ]  InsertAsync
+		     - [ ] UpdateAsync
+		     - [ ] DeleteAsync
+		     - [ ] ExistsAsync
+		     - [ ] SelectAsync
 		
