@@ -7,7 +7,7 @@ namespace Api.Data.Context
     {
         public MyContext CreateDbContext(string[] args)
         {
-            var conectionString = "";
+            var conectionString = "Server=localhost;Port=3306;Database=MyDatabase;Uid=root;Pwd=passwords";
             var optionBuilder = new DbContextOptionsBuilder<MyContext>();
             optionBuilder.UseMySql(conectionString);
             return new MyContext(optionBuilder.Options);
