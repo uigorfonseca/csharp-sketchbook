@@ -45,7 +45,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	     - [x] Implementar ContextFactory
 	     - [x] Implementar UserMap
 	     - [x] Implementar Migrations do User
-	     - [ ] Implementar interface de repositorio
+	     - [x] Implementar interface de repositorio genérico
 	     - [ ] Implementar repositorio genérico
 		     - [ ]  InsertAsync
 		     - [ ] UpdateAsync
