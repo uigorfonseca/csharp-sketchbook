@@ -13,6 +13,17 @@ services:
     volumes:
       - aspnet-db:/var/lib/mysql
       - ./aspnet-db/init.sql:/docker-entrypoint-initaspnet-db.d/init.sql
+    networks:
+      - mysql-compose-network
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    networks:
+      - mysql-compose-network
 volumes:
   aspnet-db:
     driver: local
+networks: 
+  mysql-compose-network:
+    driver: bridge
