@@ -36,7 +36,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 		      - [x] Cross Cutting
 		      - [x] Data
 		      - [x] Service
-     - [ ] Camada Data
+     - [x] Camada Data
 	     - [x] Base Entitity
 	     - [x] User Entity
 	     - [x] Instalaçao de pacotes ORM
@@ -46,10 +46,10 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	     - [x] Implementar UserMap
 	     - [x] Implementar Migrations do User
 	     - [x] Implementar interface de repositorio genérico
-	     - [ ] Implementar repositorio genérico
-		     - [ ]  InsertAsync
-		     - [ ] UpdateAsync
-		     - [ ] DeleteAsync
-		     - [ ] ExistsAsync
-		     - [ ] SelectAsync
+	     - [x] Implementar repositorio genérico
+		     - [x]  InsertAsync
+		     - [x] UpdateAsync
+		     - [x] DeleteAsync
+		     - [x] ExistsAsync
+		     - [x] SelectAsync
 		
