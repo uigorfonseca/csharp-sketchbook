@@ -22,9 +22,20 @@ namespace Api.Data.Repository
             throw new NotImplementedException();
         }
 
-        public Task<T> InsertAsync(T item)
+        public async Task<T> InsertAsync(T item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                item.Id = Guid.NewGuid();
+                item.CreatAt = DateTime.UtcNow;
+                _dataset.Add(item);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
+            return item;
         }
 
         public Task<T> SelectAsync(Guid id)
