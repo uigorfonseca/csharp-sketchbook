@@ -50,14 +50,28 @@ namespace Api.Data.Repository
             return item;
         }
 
-        public Task<T> SelectAsync(Guid id)
+        public async Task<T> SelectAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.SingleOrDefaultAsync(row => row.Id == id);
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
         }
 
-        public Task<IEnumerable<T>> SelectAsync()
+        public async Task<IEnumerable<T>> SelectAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.ToListAsync();
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
         }
 
         public async Task<T> UpdateAsync(T item)
