@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Z/GlOdvHvon31AMPRsBUERMNSJ2qo59HeTvg8vbKoWsFsbIYiUPEIO8SLNF7e77LSJU0vPW9RfqwnO5PR70AA==",
+  "dgSpecHash": "2sV6yBlp30MYaZjXXXizcYpY8LxLnrIfj/M/526hlInzpMV2hLfHTEvmZYaNRFbbMb4WjNplJyMU+7trA0NEdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\uigor\\OneDrive\\Documents\\GitHub\\csharp-sketchbook\\api\\src\\Api.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\uigor\\Desenvolvimento\\github\\csharp-sketchbook\\api\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

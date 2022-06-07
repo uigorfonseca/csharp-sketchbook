@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7t0/Qu6GXTbikZAbOWP/gIDM15QucebauEAsADdhHfPKoW0BQ6KjiUhBYme0eVdDgXKeg+GrHR6sxd1h4TCpHg==",
+  "dgSpecHash": "UX46CDrcwkhTq9W6eTu+dYfba5wCtcrCX55Q51cIw8a0q6Mz2QH8v5qs/HfSOkU0w815fd6QiRMoJHxvAeW/mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\uigor\\OneDrive\\Documents\\GitHub\\csharp-sketchbook\\api\\src\\Api.Application\\application.csproj",
+  "projectFilePath": "C:\\Users\\uigor\\Desenvolvimento\\github\\csharp-sketchbook\\api\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

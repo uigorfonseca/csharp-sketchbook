@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  aspnet-db:
+    image: mysql:8.0
+    cap_add:
+      - SYS_NICE
+    restart: always
+    environment:
+      - MYSQL_DATABASE=api
+      - MYSQL_ROOT_PASSWORD=secret
+    ports:
+      - '3306:3306'
+    volumes:
+      - aspnet-db:/var/lib/mysql
+      - ./aspnet-db/init.sql:/docker-entrypoint-initaspnet-db.d/init.sql
+    networks:
+      - mysql-compose-network
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    networks:
+      - mysql-compose-network
+volumes:
+  aspnet-db:
+    driver: local
+networks: 
+  mysql-compose-network:
+    driver: bridge

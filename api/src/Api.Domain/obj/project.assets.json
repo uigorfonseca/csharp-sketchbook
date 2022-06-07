@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\uigor\\OneDrive\\Documents\\GitHub\\csharp-sketchbook\\api\\src\\Api.Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\uigor\\Desenvolvimento\\github\\csharp-sketchbook\\api\\src\\Api.Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\uigor\\OneDrive\\Documents\\GitHub\\csharp-sketchbook\\api\\src\\Api.Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\uigor\\Desenvolvimento\\github\\csharp-sketchbook\\api\\src\\Api.Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\uigor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uigor\\OneDrive\\Documents\\GitHub\\csharp-sketchbook\\api\\src\\Api.Domain\\obj\\",
+      "outputPath": "C:\\Users\\uigor\\Desenvolvimento\\github\\csharp-sketchbook\\api\\src\\Api.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\uigor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -30,6 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -56,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.419\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
