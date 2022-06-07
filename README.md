@@ -47,9 +47,23 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	     - [x] Implementar Migrations do User
 	     - [x] Implementar interface de repositorio genérico
 	     - [x] Implementar repositorio genérico
-		     - [x]  InsertAsync
-		     - [x] UpdateAsync
-		     - [x] DeleteAsync
-		     - [x] ExistsAsync
-		     - [x] SelectAsync
+			- [x] InsertAsync
+			- [x] UpdateAsync
+			- [x] DeleteAsync
+			- [x] ExistsAsync
+			- [x] SelectAsync
+	- [ ] Camada Service
+		- [ ] Implementar interface UserService
+		- [ ] Criar referencias Data, CrossCutting e Domaon
+		- [ ] Implementar UserService
+	- [ ]  Camada Application
+		- [ ] Adicionar Referencias e Criar a classe UsersController
+		- [ ] Implementar método GetAll
+		- [ ] Configurar injeção de dependência
+		- [ ] Implementar método Get por Id
+		- [ ] Implementar método Post para criação
+		- [ ]  Implementar método PUT para atualizar registros
+		- [ ]  Implementar método DELETE
+		- [ ] Implementar Swagger
+
 		
