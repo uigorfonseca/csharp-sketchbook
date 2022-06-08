@@ -52,10 +52,10 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 			- [x] DeleteAsync
 			- [x] ExistsAsync
 			- [x] SelectAsync
-	- [ ] Camada Service
-		- [ ] Implementar interface UserService
-		- [ ] Criar referencias Data, CrossCutting e Domaon
-		- [ ] Implementar UserService
+	- [x] Camada Service
+		- [x] Implementar interface UserService
+		- [x] Criar referencias Data, CrossCutting e Domaon
+		- [x] Implementar UserService
 	- [ ]  Camada Application
 		- [ ] Adicionar Referencias e Criar a classe UsersController
 		- [ ] Implementar método GetAll
