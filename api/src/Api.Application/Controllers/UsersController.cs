@@ -1,6 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.User;
+using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
@@ -43,6 +44,23 @@ namespace Api.Application.Controllers
             try
             {
                 return Ok(await _service.Get(Id));
+            }
+            catch (ArgumentException exception)
+            {
+                return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.Message);
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] UserEntity user)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                return Ok(await _service.Post(user));
             }
             catch (ArgumentException exception)
             {
