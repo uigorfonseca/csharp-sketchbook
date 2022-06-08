@@ -90,5 +90,23 @@ namespace Api.Application.Controllers
                 return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.Message);
             }
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                return Ok(await _service.Delete(id));
+            }
+            catch (ArgumentException exception)
+            {
+                return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.Message);
+            }
+        }
     }
 }
+
