@@ -22,7 +22,7 @@ namespace Api.Application.Controllers
             }
             catch (ArgumentException exception)
             {
-                return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.message);
+                return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.Message);
             }
         }
     }
