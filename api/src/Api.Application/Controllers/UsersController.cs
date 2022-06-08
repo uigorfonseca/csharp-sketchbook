@@ -31,5 +31,23 @@ namespace Api.Application.Controllers
                 return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.Message);
             }
         }
+
+        [HttpGet]
+        [Route("{id}", Name = "GetWithId")]
+        public async Task<ActionResult> Get(Guid Id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                return Ok(await _service.Get(Id));
+            }
+            catch (ArgumentException exception)
+            {
+                return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.Message);
+            }
+        }
     }
 }
