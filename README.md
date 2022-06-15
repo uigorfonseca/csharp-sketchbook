@@ -57,13 +57,13 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 		- [x] Criar referencias Data, CrossCutting e Domaon
 		- [x] Implementar UserService
 	- [ ]  Camada Application
-		- [ ] Adicionar Referencias e Criar a classe UsersController
-		- [ ] Implementar método GetAll
-		- [ ] Configurar injeção de dependência
-		- [ ] Implementar método Get por Id
-		- [ ] Implementar método Post para criação
-		- [ ]  Implementar método PUT para atualizar registros
-		- [ ]  Implementar método DELETE
+		- [x] Adicionar Referencias e Criar a classe UsersController
+		- [x] Implementar método GetAll
+		- [x] Configurar injeção de dependência
+		- [x] Implementar método Get por Id
+		- [x] Implementar método Post para criação
+		- [x]  Implementar método PUT para atualizar registros
+		- [x]  Implementar método DELETE
 		- [ ] Implementar Swagger
 
 		
