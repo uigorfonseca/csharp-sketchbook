@@ -5,6 +5,6 @@ namespace Api.Domain.Interfaces.Services.Auth
 {
     public interface ILoginService
     {
-        Task<UserEntity> FindByEmail(string email);
+        Task<object> FindByEmail(string email);
     }
 }
