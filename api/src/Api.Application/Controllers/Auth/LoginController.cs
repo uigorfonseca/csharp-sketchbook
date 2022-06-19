@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace application.Controllers.Auth
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/auth")]
     public class LoginController : ControllerBase
     {
         private ILoginService _loginService;
@@ -16,6 +16,7 @@ namespace application.Controllers.Auth
             _loginService = loginService;
         }
         [HttpPost]
+        [Route("login")]
         public async Task<object> login([FromBody] LoginDto userLogin)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
