@@ -15,7 +15,7 @@ namespace application.Controllers.Auth
         {
             _loginService = loginService;
         }
-
+        [HttpPost]
         public async Task<object> login([FromBody] LoginDto userLogin)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
