@@ -65,5 +65,18 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 		- [x]  Implementar método PUT para atualizar registros
 		- [x]  Implementar método DELETE
 		- [ ] Implementar Swagger
-
+	- [x] 🔒 Validação via JWT
+		- [x] Api.Data - Adicionar IUserRepository
+		- [x] Api.Data - Adicionar UserImplementation
+		- [x] Api.Domain - Adicionar ILoginService
+		- [x] Api.Service - Implementar interface ILoginService
+		- [x] Api.Application - Implementar LoginController
+		- [x] Api.CrossCutting - Injeção de dependências
+		- [x] Api.Domain - Criar Login DTO
+		- [x] Api... - Substituir uso de Entidade(User) como input/output nas operações referentes ao Login
+		- [x] Api.Domain - Implementar Classe SigningConfigurations e TokenConfigurations
+		- [x] Api.Application - Adicionar Configuração do Token AppSerttings
+		- [x] Api.Service - Implementar geração do Token
+		- [x] Api.Application - Instalar lib Authentication.JwtBearer
+		- [x] Api.Application - Implementar Uso do Token(Startup.cs)
 		
