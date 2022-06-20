@@ -2,10 +2,12 @@ using System;
 using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.User;
 using Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
 {
+    [Authorize("bearer")]
     [ApiController]
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
@@ -32,7 +34,7 @@ namespace Api.Application.Controllers
                 return StatusCode((int)System.Net.HttpStatusCode.InternalServerError, exception.Message);
             }
         }
-
+        
         [HttpGet]
         [Route("{id}", Name = "GetWithId")]
         public async Task<ActionResult> Get(Guid Id)
