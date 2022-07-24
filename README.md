@@ -81,4 +81,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 		- [x] Api.Service - Implementar geração do Token
 		- [x] Api.Application - Instalar lib Authentication.JwtBearer
 		- [x] Api.Application - Implementar Uso do Token(Startup.cs)
-		
+	- [ ] 👩🏽‍🔬 Testes
+		- [ ] Camada de Data
+		- [ ] Camada de Service
+	
