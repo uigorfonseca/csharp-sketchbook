@@ -1,8 +1,10 @@
-﻿using Api.Data.Context;
+﻿
+
+using System;
+using Api.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Api.Data.Test;
 public class DbTest : IDisposable
 {
     private string _databaseName = $"dbTest_{Guid.NewGuid().ToString().Replace("-", string.Empty)}";
