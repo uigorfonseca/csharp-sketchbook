@@ -69,5 +69,27 @@ namespace Service.Test.Services
             var resultado = await _service.Get(esperado.Id);
             Assert.Equal(resultado.Id, esperado.Id);
         }
+        
+        [Fact]
+        public async Task Post_Deve_Registrar_Um_Usuario_Valido_Com_Sucesso()
+        {
+            var esperado = new UserEntity
+            {
+                Name = Faker.NameFaker.FemaleName(),
+                Email = Faker.InternetFaker.Email(),
+                CreatAt =   new DateTime(),
+                UpdateAt = null
+            };
+            
+            _mockRepository = new Mock<IUserRepository>();
+            _mockRepository.Setup(m => m.InsertAsync(esperado)).ReturnsAsync(esperado);
+            
+            _service = new UserService(_mockRepository.Object);
+
+            var resultado = await _service.Post(esperado);
+            
+            Assert.NotNull(resultado);
+            Assert.Equal(resultado.Id, esperado.Id);
+        }
     }
 }
