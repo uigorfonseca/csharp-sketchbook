@@ -1,0 +1,15 @@
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\bin\Debug\net6.0\resolucoes.exe
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\bin\Debug\net6.0\resolucoes.deps.json
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\bin\Debug\net6.0\resolucoes.runtimeconfig.json
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\bin\Debug\net6.0\resolucoes.dll
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\bin\Debug\net6.0\resolucoes.pdb
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.csproj.AssemblyReference.cache
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.AssemblyInfoInputs.cache
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.AssemblyInfo.cs
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.csproj.CoreCompileInputs.cache
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.dll
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\refint\resolucoes.dll
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.pdb
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\resolucoes.genruntimeconfig.cache
+C:\Users\uigor\Desenvolvimento\github\csharp-sketchbook\desafios\resolucoes\obj\Debug\net6.0\ref\resolucoes.dll

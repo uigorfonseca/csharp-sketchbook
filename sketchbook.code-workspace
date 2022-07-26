@@ -9,6 +9,10 @@
             "name": "CSharp Básico"
         },
         {
+            "path": "desafios",
+            "name": "Desafios"
+        }
+        {
             "path": ".",
             "name": "Raiz"
         }
