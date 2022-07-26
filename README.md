@@ -29,6 +29,10 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 	 - [ ] For
 	 - [ ] While, Continue e Break
 	 - [ ] Switch
+ - [ ] Desafios
+ 	- [ ] [Somar os dois números menores da lista](desafios/SomaDosDoisInteirosPositivosMaisBaixos.md)
+	- [ ] [Ordem decrescente](desafios/OrdemDecrescente.md)
+	- [ ] [Buscar o número único](desafios/BuscarNumericoUnico.md)
  - [ ] API(aspnet core 3.1)
      - [x]  Criação da solução e camadas da arquitetura
 	      - [x]  Solução
