@@ -1,4 +1,4 @@
-## 🏋🏽‍♀️ Api(aspnet.core)
+## 🤵🏽‍♀️ Api(aspnet.core)
 
 Esse projeto tem como objetivo se tornar uma api de estudos que deve continuar crescendo e evoluindo. Ela será usada como pratica dos outros projetos como o c# básico e o de desafios.
 
