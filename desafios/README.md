@@ -4,5 +4,5 @@ Este projeto contém uma serie de desafios que devem ser feitos utilizando teste
 
 ## 👩🏽‍💻 TO DO
  - [ ] [Somar os dois números menores da lista](SomaDosDoisInteirosPositivosMaisBaixos.md)
- - [ ] [Ordem decrescente](OrdemDecrescente.md)
+ - [x] [Ordem decrescente](OrdemDecrescente.md)
  - [ ] [Buscar o número único](BuscarNumericoUnico.md)
