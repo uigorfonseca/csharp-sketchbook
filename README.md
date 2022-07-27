@@ -10,7 +10,7 @@ Repositorio é utilizado para armazenar conceitos e ideias sobre c# e seu univer
 
 ## Projetos e Conteúdos
 
-- [ ] 🧗🏾‍♀️ [C# Básico](csharp-basico/OrdemDecrescente.md)
+- [ ] 🧗🏾‍♀️ [C# Básico](csharp-basico/README.md)
 - [ ] 🏋🏽‍♀️ [Desafios](desafios/README.md)
 - [ ] 🤵 [API(aspnet core 3.1)](api/README.md)
    
