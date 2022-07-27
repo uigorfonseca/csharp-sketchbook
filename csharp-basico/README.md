@@ -2,7 +2,7 @@
 
 Nesse projeto ficam concentrados os estudos feitos utilizando a linguagem de programação C#.
 
-## ✍️ TO DO
+## 👩🏽‍💻 TO DO
  - [ ] Solution
  - [ ] Namespace
  - [ ] Classe
