@@ -18,11 +18,11 @@ jobs:
       with:
         dotnet-version: 3.1.x
     - name: Restore dependencies
-      working-directory: ./api/src
+      working-directory: ./desafios
       run: dotnet restore
     - name: Build
-      working-directory: ./api/src
+      working-directory: ./desafios
       run: dotnet build --no-restore
     - name: Test
-      working-directory: ./api/src
+      working-directory: ./desafios
       run: dotnet test --no-build --verbosity normal
